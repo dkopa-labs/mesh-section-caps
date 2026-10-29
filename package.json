@@ -1,0 +1,26 @@
+{
+  "name": "mesh-section-caps",
+  "version": "0.1.0",
+  "description": "Closed section-contour extraction and cap triangulation for triangle meshes",
+  "type": "module",
+  "main": "section-caps.js",
+  "exports": {
+    ".": "./section-caps.js"
+  },
+  "scripts": {
+    "demo": "node demo.js"
+  },
+  "keywords": [
+    "threejs",
+    "mesh",
+    "section",
+    "clipping",
+    "cad",
+    "geometry"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "earcut": "^3.0.2",
+    "three": "^0.186.0"
+  }
+}
